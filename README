@@ -1,1 +1,13 @@
+Uses an arduino uno with thermosensor and array of 5 lights to show relative temp of a space.
+Also prints temperatures in the serial monitor in degrees Celsius.
 
+Light array runs cold to hot in the following order:
+- Purple
+- Blue
+- White - target/anticipated normal temp
+- Orange
+- Red
+
+Possible future changes:
+- add led temp display
+- modify for sounds to measure and display relative noise levels
